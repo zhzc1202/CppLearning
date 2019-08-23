@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		961215D6230EE88F00EA3F01 /* Linux 常用命令.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Linux 常用命令.md"; sourceTree = "<group>"; };
+		961215D7230EE8CB00EA3F01 /* vim basic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "vim basic.md"; sourceTree = "<group>"; };
 		96C01C99230D14BB0058797C /* Day1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day1; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C01C9C230D14BB0058797C /* 无所谓叫什么名字的main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "无所谓叫什么名字的main.cpp"; sourceTree = "<group>"; };
 		96C01CA3230D19D40058797C /* Day1笔记.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Day1笔记.md"; sourceTree = "<group>"; };
@@ -39,9 +41,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961215D4230EE60000EA3F01 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		961215D5230EE61200EA3F01 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
+		96323B8C230D5281000FCBC0 /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
 		96C01C90230D14BA0058797C = {
 			isa = PBXGroup;
 			children = (
+				961215D5230EE61200EA3F01 /* Day4 */,
+				961215D4230EE60000EA3F01 /* Day3 */,
+				96323B8C230D5281000FCBC0 /* Day2 */,
 				96C01C9B230D14BB0058797C /* Day1 */,
 				96C01C9A230D14BB0058797C /* Products */,
 			);
@@ -60,6 +86,8 @@
 			children = (
 				96C01C9C230D14BB0058797C /* 无所谓叫什么名字的main.cpp */,
 				96C01CA3230D19D40058797C /* Day1笔记.md */,
+				961215D6230EE88F00EA3F01 /* Linux 常用命令.md */,
+				961215D7230EE8CB00EA3F01 /* vim basic.md */,
 			);
 			path = Day1;
 			sourceTree = "<group>";

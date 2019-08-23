@@ -29,8 +29,3 @@ tips：ls命令，绿色代表可执行文件，可以chmod a+x main.o加权限
 
 STEP5 gcc main.o -o hello
 生成hello文件，具备可执行性
-
-
-
-Linux基本命令
-
