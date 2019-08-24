@@ -109,3 +109,16 @@ userdel bob
 userdel: user bob is currently used by process 13633
 exit
 userdel bob
+
+Network command:
+ifconfig
+ping -c 4 192.168.38.73
+c: count
+
+service network restart
+service network status
+setup
+service iptables stop ：停止防火墙
+chkconfig iptables : 禁用防火墙
+sestatus : 查看selinux，selinux加强版防火墙
+setenforce 0 : 禁用selinux
